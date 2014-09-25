@@ -14,3 +14,23 @@ SVP garder en ordre alphabetique et utiliser des classes
  {
 	background-color: 273B00;
  }
+ nav
+ {
+	width: 1024px;
+	height: 50px;
+	background-color: #3C5900;
+	margin-left: auto;
+	margin-right: auto;
+ }
+ nav ul
+ {
+	width: 100%;
+ }
+ nav li
+ {
+	background-color: #273B00;
+	border: 1px black solid;
+	display: inline;
+	font-size: 30px;
+	font-family: verdana;
+ }
