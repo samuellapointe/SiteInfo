@@ -9,7 +9,16 @@ SVP garder en ordre alphabetique et utiliser des classes
  {
 	background-color: white;
  }
- 
+header
+{
+	background-color: #88B430;
+	
+	margin-left: auto;
+	margin-right: auto;
+	
+	height: 128px;
+	width: 1024px;
+}
  footer
  {
 	background-color: #273B00;
