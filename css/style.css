@@ -4,14 +4,23 @@ Couleurs: http://paletton.com/#uid=13k0+0knsof54OkfJuptNheMV7W
 SVP garder en ordre alphabetique et utiliser des classes
 */
 
+article
+{
+	margin: 0px;
+	padding: 0px;
+}
 a.footer
 {
 	color: #4C8D93;
+	margin: 0px;
+	padding: 0px;
 }
  
 body
 {
 	background-color: #B6D5D7;
+	margin: 0px;
+	padding: 0px;
 }
 
 div.lienFooter
@@ -19,30 +28,23 @@ div.lienFooter
 	padding-left: 20px;
 	padding-right: 20px;
 	display: inline;
+	
 }
  
-div.TextArticle
-{
-	 text-align:center;
-	 margin: 0 auto;
-	 background-color: #002326;
-}
  
 div.corps
 {
 	box-shadow: 0px 0px 15px #074D54;
+	
+	margin: 0px;
+	padding: 0px;
+
  	margin-left: auto;
 	margin-right: auto;
 
 	width: 1024px;
 }
 
-div.TextArticle
-{
-	 text-align:center;
-	 margin: 0 auto;
-	 background-color: #273B00;
-}
 
 footer
 {
@@ -50,11 +52,15 @@ footer
 	text-align: center;
 	padding-top: 40px;
 	padding-bottom: 40px;
+	margin: 0px;
 }
  
 header
 {
 	background-color: #216E76;
+	
+	margin: 0px;
+	padding: 0px;
 	
 	margin-left: auto;
 	margin-right: auto;
@@ -72,12 +78,19 @@ nav
 {
 	width: 1024px;
 	height: 50px;
+	
+	margin: 0px;
+	padding: 0px;
+	
 	margin-left: auto;
 	margin-right: auto;
 }
 
 nav ul
  {
+	margin: 0px;
+	padding: 0px;
+	
 	background-color: #002326;
 	text-align: center;
 	color: #4C8D93;
@@ -95,19 +108,26 @@ nav ul
  
  div.TextArticle
  {
-	 text-align:center;
-	 margin: 0 auto;
-	 background-color: #4C8D93;
+	background-color: #4C8D93;
+	text-align:center;
+
+	margin: 0px;
+	padding: 0px;
+
+	margin: 0 auto;
+	background-color: #4C8D93;
  }
  
  span.sTitreTexte
  {
 	font-size: 15pt;
 	font-family: bold;
+	
  }
  
  article div ul
  {
-	 width: 15%;
-	 background-color: #4C858D;
+	background-color: #4C858D;
+	margin: 0px;
+	width: 15%;
  }
