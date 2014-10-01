@@ -11,7 +11,7 @@ a.footer
  
 body
  {
-	background-color: white;
+	background-color: #B6D5D7;
  }
  
 
@@ -58,20 +58,22 @@ nav
 {
 	width: 1024px;
 	height: 50px;
-	background-color: #3C5900;
 	margin-left: auto;
 	margin-right: auto;
 }
 nav ul
  {
-	width: 100%;
+	background-color: #002326;
+	text-align: center;
+	color: #4C8D93;
+	border: 1px #4C8D93 solid;
  }
  
  nav li
  {
-	background-color: #273B00;
-	border: 1px black solid;
-	display: inline;
+	/*border: 1px #4C8D93 solid;
+	border-width: 1px 1px 0 0;*/
+	display: inline-block;
 	font-size: 30px;
 	font-family: verdana;
 }
@@ -80,5 +82,5 @@ nav ul
  {
 	 text-align:center;
 	 margin: 0 auto;
-	 background-color: #273B00;
+	 background-color: #4C8D93;
  }
