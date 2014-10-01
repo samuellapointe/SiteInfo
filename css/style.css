@@ -108,10 +108,14 @@ nav ul
  
  div.TextArticle
  {
-	 text-align:center;
-	 margin: 0px;
-	 padding: 0px;
-	 background-color: #273B00;
+	background-color: #4C8D93;
+	text-align:center;
+
+	margin: 0px;
+	padding: 0px;
+
+	margin: 0 auto;
+	background-color: #4C8D93;
  }
  
  span.sTitreTexte
@@ -123,7 +127,7 @@ nav ul
  
  article div ul
  {
-	 width: 15%;
-	 background-color: #4C8D93;
-	 margin: 0px;
+	background-color: #4C858D;
+	margin: 0px;
+	width: 15%;
  }
