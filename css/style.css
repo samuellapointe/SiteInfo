@@ -4,14 +4,28 @@ Couleurs: http://paletton.com/#uid=13k0+0knsof54OkfJuptNheMV7W
 SVP garder en ordre alphabetique et utiliser des classes
 */
 
+article
+{
+	margin: 0px;
+	padding: 0px;
+}
+article p
+{
+	margin: 0px;
+	padding: 0px;
+}
 a.footer
 {
 	color: #4C8D93;
+	margin: 0px;
+	padding: 0px;
 }
  
 body
 {
 	background-color: #B6D5D7;
+	margin: 0px;
+	padding: 0px;
 }
 
 div.lienFooter
@@ -19,30 +33,23 @@ div.lienFooter
 	padding-left: 20px;
 	padding-right: 20px;
 	display: inline;
+	
 }
  
-div.TextArticle
-{
-	 text-align:center;
-	 margin: 0 auto;
-	 background-color: #002326;
-}
  
 div.corps
 {
-	box-shadow: 0px 0px 15px #888888;
+	box-shadow: 0px 0px 15px #074D54;
+	
+	margin: 0px;
+	padding: 0px;
+
  	margin-left: auto;
 	margin-right: auto;
 
 	width: 1024px;
 }
 
-div.TextArticle
-{
-	 text-align:center;
-	 margin: 0 auto;
-	 background-color: #273B00;
-}
 
 footer
 {
@@ -50,35 +57,48 @@ footer
 	text-align: center;
 	padding-top: 40px;
 	padding-bottom: 40px;
+	margin: 0px;
 }
  
 header
 {
-	background-color: #216E76;
-	margin-bottom: 0;
+	background-color: #216E76;	
+	margin: 0px;
+	padding: 0px;
 	margin-left: auto;
 	margin-right: auto;
 	
 	height: 128px;
 	width: 1024px;
 }
+header img
+{
+	margin: 10px;
+	width: 20%;
+}
 
 nav
 {
+	background-color: #002326;
+	border: 1px #4C8D93 solid;
+	
 	width: 1024px;
 	height: 50px;
+	
+	margin: 0px;
+	padding: 0px;
+	
 	margin-left: auto;
 	margin-right: auto;
 }
 
 nav ul
  {
-	margin-top: 0;
-	background-color: #002326;
+	margin: 0px;
+	padding: 0px;
+	
+	text-align: center;
 	color: #4C8D93;
-	border: 1px #4C8D93 solid;
-	margin-left: auto;
-	margin-right: auto;
  }
  
  nav li
@@ -96,6 +116,26 @@ nav a:visited
  
  div.TextArticle
  {
-	 text-align:center;
-	 background-color: #4C8D93;
+	background-color: #4C8D93;
+	text-align:center;
+
+	margin: 0px;
+	padding: 0px;
+
+	margin: 0 auto;
+	background-color: #4C8D93;
+ }
+ 
+ span.sTitreTexte
+ {
+	font-size: 15pt;
+	font-family: bold;
+	
+ }
+ 
+ article div ul
+ {
+	background-color: #4C858D;
+	margin: 0px;
+	width: 15%;
  }
