@@ -63,9 +63,11 @@ footer
  
 header
 {
-	background-color: #216E76;	
+	background-color: #216E76;
+	
 	margin: 0px;
 	padding: 0px;
+	
 	margin-left: auto;
 	margin-right: auto;
 	
@@ -109,10 +111,6 @@ nav ul
 	display: inline-block;
 	font-size: 30px;
 	font-family: verdana;
-}
-nav a:visited
-{
-	color: #4C8D93;
 }
  
  div.TextArticle
