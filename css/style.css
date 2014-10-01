@@ -5,43 +5,52 @@ SVP garder en ordre alphabetique et utiliser des classes
 */
 
 a.footer
- {
+{
 	color: #4C8D93;
- }
+}
  
 body
- {
+{
 	background-color: white;
- }
- 
+}
 
 div.lienFooter
- {
+{
 	padding-left: 20px;
 	padding-right: 20px;
 	display: inline;
- }
+}
  
 div.TextArticle
- {
+{
 	 text-align:center;
 	 margin: 0 auto;
 	 background-color: #002326;
- }
+}
  
 div.corps
- {
+{
 	box-shadow: 0px 0px 15px #888888;
  	margin-left: auto;
 	margin-right: auto;
 
 	width: 1024px;
- }
+}
+
+div.TextArticle
+{
+	 text-align:center;
+	 margin: 0 auto;
+	 background-color: #273B00;
+}
+
 footer
- {
+{
 	background-color: #002326;
-	height: 100px;
- }
+	text-align: center;
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
  
 header
 {
@@ -62,24 +71,19 @@ nav
 	margin-left: auto;
 	margin-right: auto;
 }
+
 nav ul
- {
+{
 	width: 100%;
 	margin: 0px;
- }
+}
+
  
- nav li
- {
+nav li
+{
 	background-color: #273B00;
 	border: 1px black solid;
 	display: inline;
 	font-size: 30px;
 	font-family: verdana;
 }
- 
- div.TextArticle
- {
-	 text-align:center;
-	 margin: 0 auto;
-	 background-color: #273B00;
- }
