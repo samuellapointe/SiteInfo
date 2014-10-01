@@ -1,12 +1,12 @@
 /*
-Couleurs: http://paletton.com/#uid=12m0+0knsof54OkfJuptNheMV7W 
+Couleurs: http://paletton.com/#uid=13k0+0knsof54OkfJuptNheMV7W
 
 SVP garder en ordre alphabetique et utiliser des classes
 */
 
 a.footer
  {
-	color: #BDE273;
+	color: #4C8D93;
  }
  
 body
@@ -26,7 +26,7 @@ div.TextArticle
  {
 	 text-align:center;
 	 margin: 0 auto;
-	 background-color: #273B00;
+	 background-color: #002326;
  }
  
 div.corps
@@ -39,13 +39,13 @@ div.corps
  }
 footer
  {
-	background-color: #273B00;
+	background-color: #002326;
 	height: 100px;
  }
  
 header
 {
-	background-color: #88B430;
+	background-color: #216E76;
 	
 	margin-left: auto;
 	margin-right: auto;
