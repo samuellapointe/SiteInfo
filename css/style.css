@@ -81,8 +81,10 @@ footer
 }
 h1
 {
-	float: left;
+	color: #B6D5D7;
 	font-size: 50px;
+	margin-left: 350px;
+	text-shadow: 2px 2px #002326;
 }
 header
 {
