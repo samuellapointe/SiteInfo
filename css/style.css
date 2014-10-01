@@ -82,3 +82,15 @@ nav ul
 	 margin: 0 auto;
 	 background-color: #273B00;
  }
+ 
+ span.sTitreTexte
+ {
+	font-size: 15pt;
+	font-family: bold;
+ }
+ 
+ article div ul
+ {
+ width: 15%;
+ background-color: #216E76;
+ }
