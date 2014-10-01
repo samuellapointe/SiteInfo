@@ -5,43 +5,52 @@ SVP garder en ordre alphabetique et utiliser des classes
 */
 
 a.footer
- {
+{
 	color: #4C8D93;
- }
+}
  
 body
- {
-	background-color: white;
- }
- 
+{
+	background-color: #B6D5D7;
+}
 
 div.lienFooter
- {
+{
 	padding-left: 20px;
 	padding-right: 20px;
 	display: inline;
- }
+}
  
 div.TextArticle
- {
+{
 	 text-align:center;
 	 margin: 0 auto;
 	 background-color: #002326;
- }
+}
  
 div.corps
- {
+{
+	box-shadow: 0px 0px 15px #074D54;
  	margin-left: auto;
 	margin-right: auto;
-	
-	height: 128px;
+
 	width: 1024px;
- }
+}
+
+div.TextArticle
+{
+	 text-align:center;
+	 margin: 0 auto;
+	 background-color: #273B00;
+}
+
 footer
- {
+{
 	background-color: #002326;
-	height: 100px;
- }
+	text-align: center;
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
  
 header
 {
@@ -58,20 +67,23 @@ nav
 {
 	width: 1024px;
 	height: 50px;
-	background-color: #3C5900;
 	margin-left: auto;
 	margin-right: auto;
 }
+
 nav ul
  {
-	width: 100%;
+	background-color: #002326;
+	text-align: center;
+	color: #4C8D93;
+	border: 1px #4C8D93 solid;
  }
  
  nav li
  {
-	background-color: #273B00;
-	border: 1px black solid;
-	display: inline;
+	/*border: 1px #4C8D93 solid;
+	border-width: 1px 1px 0 0;*/
+	display: inline-block;
 	font-size: 30px;
 	font-family: verdana;
 }
@@ -91,6 +103,6 @@ nav ul
  
  article div ul
  {
- width: 15%;
- background-color: #216E76;
+	 width: 15%;
+	 background-color: #4C8D93;
  }
