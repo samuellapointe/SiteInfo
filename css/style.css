@@ -4,13 +4,32 @@ Couleurs: http://paletton.com/#uid=12m0+0knsof54OkfJuptNheMV7W
 SVP garder en ordre alphabetique et utiliser des classes
 */
 
+a.footer
+ {
+	color: #BDE273;
+ }
  
- body
+body
  {
 	background-color: white;
  }
  
- div.corps
+
+div.lienFooter
+ {
+	padding-left: 20px;
+	padding-right: 20px;
+	display: inline;
+ }
+ 
+div.TextArticle
+ {
+	 text-align:center;
+	 margin: 0 auto;
+	 background-color: #273B00;
+ }
+ 
+div.corps
  {
  	margin-left: auto;
 	margin-right: auto;
@@ -18,6 +37,12 @@ SVP garder en ordre alphabetique et utiliser des classes
 	height: 128px;
 	width: 1024px;
  }
+footer
+ {
+	background-color: #273B00;
+	height: 100px;
+ }
+ 
 header
 {
 	background-color: #88B430;
@@ -28,23 +53,20 @@ header
 	height: 128px;
 	width: 1024px;
 }
- footer
- {
-	background-color: 273B00;
- }
-<<<<<<< HEAD
- nav
- {
+
+nav
+{
 	width: 1024px;
 	height: 50px;
 	background-color: #3C5900;
 	margin-left: auto;
 	margin-right: auto;
- }
- nav ul
+}
+nav ul
  {
 	width: 100%;
  }
+ 
  nav li
  {
 	background-color: #273B00;
@@ -52,12 +74,11 @@ header
 	display: inline;
 	font-size: 30px;
 	font-family: verdana;
-=======
+}
  
  div.TextArticle
  {
- text-align:center;
- margin: 0 auto;
- background-color: #273B00;
->>>>>>> origin/master
+	 text-align:center;
+	 margin: 0 auto;
+	 background-color: #273B00;
  }
