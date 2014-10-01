@@ -75,6 +75,7 @@ header img
 {
 	margin: 10px;
 	width: 20%;
+	float: left;
 }
 
 nav
@@ -106,8 +107,8 @@ nav ul
 	/*border: 1px #4C8D93 solid;
 	border-width: 1px 1px 0 0;*/
 	display: inline-block;
-	font-size: 30px;
-	font-family: verdana;
+	padding-left: 10px;
+	font-size: 40px;
 }
 nav a:visited
 {
@@ -138,4 +139,9 @@ nav a:visited
 	background-color: #4C858D;
 	margin: 0px;
 	width: 15%;
+ }
+ h1
+ {
+	float: left;
+	font-size: 50px;
  }
