@@ -9,6 +9,11 @@ article
 	margin: 0px;
 	padding: 0px;
 }
+article p
+{
+	margin: 0px;
+	padding: 0px;
+}
 a.footer
 {
 	color: #4C8D93;
@@ -76,6 +81,9 @@ header img
 
 nav
 {
+	background-color: #002326;
+	border: 1px #4C8D93 solid;
+	
 	width: 1024px;
 	height: 50px;
 	
@@ -91,10 +99,8 @@ nav ul
 	margin: 0px;
 	padding: 0px;
 	
-	background-color: #002326;
 	text-align: center;
 	color: #4C8D93;
-	border: 1px #4C8D93 solid;
  }
  
  nav li
