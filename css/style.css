@@ -18,11 +18,11 @@ article
 }
 
 article div ul
-{
+ {
 	background-color: #4C858D;
 	margin: 0px;
 	width: 15%;
-}
+ }
 
 article p
 {
@@ -79,7 +79,13 @@ footer
 	padding-bottom: 40px;
 	margin: 0px;
 }
- 
+h1
+{
+	color: #B6D5D7;
+	font-size: 50px;
+	margin-left: 350px;
+	text-shadow: 2px 2px #002326;
+}
 header
 {
 	background-color: #216E76;	
@@ -96,6 +102,7 @@ header img
 {
 	margin: 10px;
 	width: 20%;
+	float: left;
 }
 
 nav
@@ -132,8 +139,8 @@ nav li
 	/*border: 1px #4C8D93 solid;
 	border-width: 1px 1px 0 0;*/
 	display: inline-block;
-	font-size: 30px;
-	font-family: verdana;
+	padding-left: 10px;
+	font-size: 40px;
 }
  
 span.sTitreTexte
