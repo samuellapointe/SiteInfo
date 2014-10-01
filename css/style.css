@@ -55,7 +55,7 @@ footer
 header
 {
 	background-color: #216E76;
-	
+	margin-bottom: 0;
 	margin-left: auto;
 	margin-right: auto;
 	
@@ -73,10 +73,12 @@ nav
 
 nav ul
  {
+	margin-top: 0;
 	background-color: #002326;
-	text-align: center;
 	color: #4C8D93;
 	border: 1px #4C8D93 solid;
+	margin-left: auto;
+	margin-right: auto;
  }
  
  nav li
@@ -87,10 +89,13 @@ nav ul
 	font-size: 30px;
 	font-family: verdana;
 }
+nav a:visited
+{
+	color: #4C8D93;
+}
  
  div.TextArticle
  {
 	 text-align:center;
-	 margin: 0 auto;
 	 background-color: #4C8D93;
  }
