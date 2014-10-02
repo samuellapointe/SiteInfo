@@ -138,15 +138,6 @@ nav a:visited
 {
 	color: #4C8D93;
 }
-
-nav ul
- {
-	margin: 0px;
-	margin-top: 1.5%;
-	padding: 0px;
-	text-align: center;
-	color: #4C8D93;
-}
  
 nav li
 {
@@ -162,6 +153,15 @@ nav li
 nav li.last
 {
 	border-right: 1px #4C8D93 solid;
+}
+
+nav ul
+ {
+	margin: 0px;
+	margin-top: 1.5%;
+	padding: 0px;
+	text-align: center;
+	color: #4C8D93;
 }
  
 span.sTitreTexte
