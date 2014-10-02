@@ -13,8 +13,13 @@ a.footer
 
 article
 {
+	background-color: #4C8D93;
+	text-align:center;
+
 	margin: 0px;
 	padding: 0px;
+
+	background-color: #4C8D93;
 }
 
 article div ul
@@ -62,21 +67,16 @@ div.lienFooter
 	
 }
 
-div.TextArticle
-{
-	background-color: #4C8D93;
-	text-align:center;
-
-	margin: 0px;
-	padding: 0px;
-
-	margin: 0 auto;
-	background-color: #4C8D93;
-}
-
 div.textTech
 {
 
+}
+
+div.texteInfo
+{
+	margin-left: auto;
+	margin-right: auto;
+	width: 768px;
 }
 
 footer
