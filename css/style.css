@@ -21,7 +21,10 @@ article
 
 	background-color: #4C8D93;
 }
-
+article a, article a:visited
+{
+	color: black;
+}
 article div ul
 {
 	background-color: #4C858D;
@@ -32,12 +35,35 @@ article h3
 {
 	margin-top: 0;
 }
+article iframe
+{
+	box-shadow: 0px 0px 15px black;
+}
 article p
 {
 	margin: 0px;
 	padding: 0px;
 }
- 
+article table
+{
+	box-shadow: 0px 0px 15px black;
+}
+article table, article  td
+{
+	margin-left: auto;
+	margin-right: auto;
+	border: 1px black solid;
+	border-collapse: collapse;
+	height: 30px;
+}
+article td
+{
+	width: 40%;
+}
+article td.big
+{
+	font-weight: bold;
+}
 body
 {
 	background-color: #B6D5D7;
