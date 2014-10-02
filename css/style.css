@@ -61,11 +61,16 @@ div.corps
 
 div.footer_bloc_navigation
 {
+	margin: 0px;
+	padding: 0px;
+	
 	margin-left: auto;
 	margin-right: auto;
+	
 	text-align: left;
+	
 	display: inline;
-	width: 100px;
+	width: 300px;
 }
 
 div.lienFooter
@@ -74,11 +79,6 @@ div.lienFooter
 	padding-right: 20px;
 	display: inline;
 	
-}
-
-div.textTech
-{
-
 }
 
 div.texteInfo
@@ -90,6 +90,11 @@ div.texteInfo
 	width: 768px;
 	text-align: left;
 	padding: 15px;
+}
+
+div.textTech
+{
+
 }
 
 footer
@@ -105,7 +110,8 @@ footer h1
 {
 	color: #B6D5D7;
 	font-size: 24px;
-	text-shadow: 2px 2px #002326;
+	/*text-shadow: 2px 2px #002326;*/
+	width: 300px;
 }
 
 header
@@ -161,10 +167,12 @@ nav
 	margin-left: auto;
 	margin-right: auto;
 }
+
 nav a
 {
 	color: #4C8D93;
 }
+
 nav a:visited
 {
 	color: #4C8D93;
@@ -207,4 +215,5 @@ ul.footer_lien
 {
 	list-style-type: none;
 	width: 100px;
+	color: #4C8D93;
 }
