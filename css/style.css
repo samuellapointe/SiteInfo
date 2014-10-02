@@ -87,9 +87,10 @@ div.footer_bloc_navigation
 	margin-right: auto;
 	
 	text-align: left;
+	vertical-align: text-top;
 	
 	display: inline-block;
-	width: 300px;
+	width: 200px;
 }
 
 div.texteInfo
