@@ -133,6 +133,17 @@ header img
 	float: left;
 }
 
+div.myimage
+{
+	text-align: right;
+	width: 1024px;
+}
+
+img.photoformation
+{
+	float: right;
+}
+
 nav
 {
 	background-color: #002326;
