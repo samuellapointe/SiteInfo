@@ -18,12 +18,15 @@ article
 }
 
 article div ul
- {
+{
 	background-color: #4C858D;
 	margin: 0px;
 	width: 15%;
- }
-
+}
+article h3
+{
+	margin-top: 0;
+}
 article p
 {
 	margin: 0px;
