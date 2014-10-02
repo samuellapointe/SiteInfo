@@ -59,6 +59,15 @@ div.corps
 	width: 1024px;
 }
 
+div.footer_bloc_navigation
+{
+	margin-left: auto;
+	margin-right: auto;
+	text-align: left;
+	display: inline;
+	width: 100px;
+}
+
 div.lienFooter
 {
 	padding-left: 20px;
@@ -86,6 +95,13 @@ footer
 	padding-top: 40px;
 	padding-bottom: 40px;
 	margin: 0px;
+}
+
+footer h1
+{
+	color: #B6D5D7;
+	font-size: 24px;
+	text-shadow: 2px 2px #002326;
 }
 
 header
@@ -150,6 +166,7 @@ nav li
 	width: 20%;
 	border-left: 1px #4C8D93 solid;
 }
+
 nav li.last
 {
 	border-right: 1px #4C8D93 solid;
@@ -169,4 +186,10 @@ span.sTitreTexte
 	font-size: 15pt;
 	font-family: bold;
 	
+}
+
+ul.footer_lien
+{
+	list-style-type: none;
+	width: 100px;
 }
