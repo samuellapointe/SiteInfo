@@ -38,6 +38,7 @@ article p
 article table
 {
 	/*box-shadow: 0px 0px 15px black;*/
+	box-shadow: 0px 0px 15px black;
 }
 article table, article  td
 {
@@ -45,7 +46,9 @@ article table, article  td
 	margin-right: auto;
 	/*border: 1px black solid;*/
 	border-collapse: collapse;
+	border: 1px black solid;
 	height: 30px;
+	border-collapse: separate;
 }
 article td
 {
@@ -55,6 +58,7 @@ article td.big
 {
 	font-weight: bold;
 }
+
 body
 {
 	background-color: #B6D5D7;
@@ -138,17 +142,34 @@ footer
 {
 	background-color: #002326;
 	text-align: center;
-	padding-top: 40px;
-	padding-bottom: 40px;
+	padding-top: 25px;
+	padding-bottom: 15px;
 	margin: 0px;
+	color: #B6D5D7;
+	font-size: 14px;
+}
+
+footer div
+{
+	display: inline-block;
+	vertical-align: top;
+	width: 20%;
+	color: #B6D5D7;
+}
+
+footer div.bloc_liens
+{
+	text-align: left;
+	width: 20%;
 }
 
 footer h1
 {
 	color: #B6D5D7;
-	font-size: 24px;
+	font-size: 16px;
 	/*text-shadow: 2px 2px #002326;*/
-	width: 300px;
+	width: 250px;
+	margin: 0px;
 }
 
 header
@@ -226,7 +247,16 @@ nav a
 {
 	color: #4C8D93;
 }
-
+nav a.chosen
+{
+	font-weight: bold;
+	color: white;
+}
+nav a.chosen:visited
+{
+	font-weight: bold;
+	color: white;
+}
 nav a:visited
 {
 	color: #4C8D93;
