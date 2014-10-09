@@ -20,9 +20,7 @@ article a, article a:visited
 }
 article div ul
 {
-	background-color: #4C858D;
 	margin: 0px;
-	width: 15%;
 }
 article h3
 {
@@ -39,15 +37,18 @@ article p
 }
 article table
 {
+	/*box-shadow: 0px 0px 15px black;*/
 	box-shadow: 0px 0px 15px black;
 }
 article table, article  td
 {
 	margin-left: auto;
 	margin-right: auto;
-	border: 1px black solid;
+	/*border: 1px black solid;*/
 	border-collapse: collapse;
+	border: 1px black solid;
 	height: 30px;
+	border-collapse: separate;
 }
 article td
 {
@@ -57,6 +58,7 @@ article td.big
 {
 	font-weight: bold;
 }
+
 body
 {
 	background-color: #B6D5D7;
@@ -89,8 +91,30 @@ div.footer_bloc_navigation
 	text-align: left;
 	vertical-align: text-top;
 	
+}
+
+div.textTech
+{
+	width:20%;
+	vertical-align:top;
+	text-align:left;
 	display: inline-block;
-	width: 200px;
+	background-color: #216E76;
+	box-shadow: 0px 0px 15px #216E76;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 15px;
+}
+
+div.photoTech
+{
+	text-align:center;
+	width:40%;
+	vertical-align:top;
+	display: inline-block;
+	margin-left: auto;
+	margin-right: auto;
+	box-shadow: 0px 0px 15px black;
 }
 
 div.texteInfo
@@ -114,26 +138,38 @@ div.texteInfoCenter
 	padding: 15px;
 }
 
-div.textTech
-{
-
-}
-
 footer
 {
 	background-color: #002326;
 	text-align: center;
-	padding-top: 40px;
-	padding-bottom: 40px;
+	padding-top: 25px;
+	padding-bottom: 15px;
 	margin: 0px;
+	color: #B6D5D7;
+	font-size: 14px;
+}
+
+footer div
+{
+	display: inline-block;
+	vertical-align: top;
+	width: 20%;
+	color: #B6D5D7;
+}
+
+footer div.bloc_liens
+{
+	text-align: left;
+	width: 20%;
 }
 
 footer h1
 {
 	color: #B6D5D7;
-	font-size: 24px;
+	font-size: 16px;
 	/*text-shadow: 2px 2px #002326;*/
-	width: 300px;
+	width: 250px;
+	margin: 0px;
 }
 
 header
@@ -168,11 +204,28 @@ div.myimage
 {
 	text-align: right;
 	width: 1024px;
+	position:relative;
+	vertical-align:middle;
+	height: 100%;
+	box-shadow: 0px 0px 15px black;
 }
 
 img.photoformation
 {
+	height:100%;
 	float: right;
+	vertical-align:middle;
+	display:inline-block;
+	
+}
+
+img.photoformation2
+{
+	height:100%;
+	float: right;
+	vertical-align:middle;
+	display:inline-block;
+	
 }
 
 nav
@@ -194,7 +247,16 @@ nav a
 {
 	color: #4C8D93;
 }
-
+nav a.chosen
+{
+	font-weight: bold;
+	color: white;
+}
+nav a.chosen:visited
+{
+	font-weight: bold;
+	color: white;
+}
 nav a:visited
 {
 	color: #4C8D93;
@@ -233,6 +295,11 @@ span.sTitreTexte
 	
 }
 
+table.tableFormation td
+{
+	width:280px;
+}
+
 ul.footer_lien
 {
 	list-style-type: none;
@@ -244,4 +311,10 @@ ul.footer_lien
 ul.footer_lien a, ul.footer_lien a:visited
 {
 	color: #4C8D93;
+}
+
+ul.imageFormation
+{
+	list-style-type: none;
+	margin-left:0px;
 }
