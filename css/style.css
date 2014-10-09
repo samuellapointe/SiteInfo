@@ -290,9 +290,9 @@ nav ul
  
 span.sTitreTexte
 {
-	font-size: 15pt;
+	font-size: 17pt;
 	font-family: bold;
-	
+	color: white
 }
 
 table.tableFormation td
