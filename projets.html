@@ -8,6 +8,15 @@
 		<link type="text/css" rel="stylesheet" href="css/style.css" />
 		<link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
 		<script type="text/javascript" src="js/script.js"></script>
+		<link rel="stylesheet" href="css/flexslider.css" type="text/css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+		<script src="js/jquery.flexslider.js"></script>
+		<script type="text/javascript" charset="utf-8">
+			$(window).load(function() 
+			{
+				$('.flexslider').flexslider();
+			});
+		</script>
 	</head>
 	<body>
 		<div class="corps">
@@ -19,45 +28,20 @@
 		
 			<nav>
 				<ul>
-					<li><a href="index.html" class="chosen">Accueil</a></li>
+					<li><a href="index.html">Accueil</a></li>
 					<li><a href="formation.html">Formation</a></li>
-					<li><a href="projets.html">Projets</a></li>
-					<li><a href="photos.html">Photos d'activités</a></li>
+					<li><a href="photos.html" class="chosen">Photos d'activités</a></li>
 					<li class="last"><a href="contacts.html">Contacts</a></li>
 				</ul>
 			</nav>
 			
-			<article>
-				<div class="TextArticle">
-					<h3>Les branches en informatique</h3>
-
-					<div class="textTech">
-						<ul>
-							<span class="sTitreTexte">En tant que programmeur </span>
-							<li>Concevoir et développer des bases de données (Access, SQL Server, MySQL).</li>
-							<li>Concevoir et développer des applications Web (commerce électronique, PHP, HTML, …)</li>
-							<li>Concevoir et développer des applications de gestion dans des langages variés (Java, C++, VB.Net, C#).</li>
-							<li>Apporter un soutien technique aux usagers.</li>
-						</ul>
-					</div>
-					<div class="textTech">
-						<ul>
-							<span class="sTitreTexte">En tant que gestionnaire de réseaux </span>
-							<li>Concevoir et implanter des réseaux.</li>
-							<li>Installer des serveurs sous différentes plateformes (Windows, Linux).</li>
-							<li>Installer des équipements de télécommunication : routeur, commutateur, câblage.</li>
-							<li>Administrer des réseaux.</li>
-							<li>Apporter un soutien technique aux usagers.</li>
-						</ul>
-					</div>
-					<div class="photoTech">
-						<img class="photoformation" src="./img/info.jpg" alt="photo" height="100%" width="100%"/>
-						<img class="photoformation2" src="./img/info2.jpg" alt="photo" height="100%" width="100%"/>
-					</div>
+				<div class="flexslider">
+					<ul class="slides">
+						<li>
+							<img src="img/projets/risk.png" />
+						</li>
+					</ul>
 				</div>
-				</br>
-				</br>
-			</article>
 			
 			<footer>
 				<div>
@@ -85,7 +69,6 @@
 				</div>
 				<br />
 				<br />
-	
 				© Cégep de Chicoutimi | 534, rue Jacques-Cartier Est, Chicoutimi (Québec) G7H 1Z6 | Tél : (418) 549-9520
 			</footer>
 		</div>
